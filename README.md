@@ -1,6 +1,6 @@
 # basic_to_do_app
-
-A new Flutter project.
+This is a no-database ToDo Application. It uses Shared Preferences to store and get the user's credentials while creating an account and logging back into it.
+This app uses session management, where once the user logs into the account, the app manages its status unless the user logs out themselves.
 
 ## Getting Started
 
