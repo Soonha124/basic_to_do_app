@@ -9,7 +9,8 @@ class changePasswordScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(onPressed: (){
-          Navigator.push(context, MaterialPageRoute(builder: (context)=>logInScreen()));
+          Navigator.push(context, MaterialPageRoute(builder: (context)=>logInScreen(
+          )));
         },
             icon: Icon(Icons.arrow_back)),
       ),
